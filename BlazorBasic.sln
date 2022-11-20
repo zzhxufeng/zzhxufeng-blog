@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBasic", "Client\BlazorBasic.csproj", "{A789CAE2-99A1-4D0D-B492-6FB0A727E94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTest", "AzureFunctionTest\AzureFunctionTest.csproj", "{B9E462DF-B0BF-4EF9-AB16-EF12BCBF48A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionTest", "AzureFunctionTest\AzureFunctionTest.csproj", "{B9E462DF-B0BF-4EF9-AB16-EF12BCBF48A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "SharedModels\SharedModels.csproj", "{193CDFF0-8711-4633-8C63-AD2A28DEC54E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B9E462DF-B0BF-4EF9-AB16-EF12BCBF48A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E462DF-B0BF-4EF9-AB16-EF12BCBF48A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E462DF-B0BF-4EF9-AB16-EF12BCBF48A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193CDFF0-8711-4633-8C63-AD2A28DEC54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193CDFF0-8711-4633-8C63-AD2A28DEC54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193CDFF0-8711-4633-8C63-AD2A28DEC54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193CDFF0-8711-4633-8C63-AD2A28DEC54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

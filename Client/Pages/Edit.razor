@@ -1,0 +1,23 @@
+﻿@inject HttpClient Http
+@page "/Edit"
+
+<PageTitle>Edit</PageTitle>
+
+<div>
+    <form method="post">
+        <div>
+            <label>Title</label>
+            <input asp-for="Title" />
+        </div>
+        <div>
+            <label>Body</label>
+            <input asp-for="Body" />
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+@code
+{
+
+}
